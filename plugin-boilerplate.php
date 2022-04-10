@@ -78,30 +78,10 @@ function dg_create_menu() {
 add_action('admin_menu', 'DamnGood\\dg_create_menu');
 
 function Register_Scripts() {
-    /* GSAP */
-    wp_register_script(
-        'gsap',
-        plugin_dir_url(__FILE__) . 'resources/js/gsap.js',
-        array(),
-        '1.0.0',
-        true 
-    );
 
-    /* SCROLLTRIGGER */
-    wp_register_script(
-        'scrolltrigger',
-        plugin_dir_url(__FILE__) . 'resources/js/ScrollTrigger.js',
-        array('gsap'),
-        '1.0.0',
-        true
-    );
-
-	
 }
 
 function Enqueue_Scripts() {
-    wp_enqueue_script( 'gsap');
-    wp_enqueue_script( 'scrolltrigger');
 
   
 }

@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       Damn Good Widgets
- * Plugin URI:        https://www.damngood.agency
+ * Plugin Name:       Plugin Boiler Plater
+ * Plugin URI:       
  * Description:       
  * Version:           1.0.0
  * Author:            Christopher Waddington
@@ -28,15 +28,15 @@ function dg_widgets_page() {
     
     </div>
     <div class="wrap">
-        <h2> DG Widgets </h2> 
-        <h3> Author: Damn Good Agency </h3> 
+        <h2>  Widgets </h2> 
+        <h3> Author:  </h3> 
         <table class="wp-list-table widefat fixed striped table-view-list toplevel_page_gf_edit_forms">
             <tr>
                 <th>Shortcode</th>
                 <th>Descriptions</th>
             </tr>            
         </table>
-        <h2> Damn Good Custom Functionality </h2> 
+        <h2>Custom Functionality </h2> 
         <table class="wp-list-table widefat fixed striped table-view-list toplevel_page_gf_edit_forms">
             <tr>
                 <th>Function</th>
